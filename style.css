@@ -1,0 +1,71 @@
+body{
+    background-color:#59CE8F;
+    font-family: 'Roboto Mono', monospace;
+}
+ul{
+  text-align:center;
+}
+ li {
+     display:inline-block;
+     text-transform:uppercase;
+     font-size:1.5em;
+     padding:10px 20px;
+     color:#31087B;
+ }
+ .container{
+  text-align:center;
+ }
+ #countdown {
+  visibility:hidden;
+}
+
+#birthday{
+
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+}
+#celebration{
+  visibility:hidden;
+
+}
+#emoji {
+  font-size:5rem;
+  width:70%;
+  text-align:center;
+}
+#submit{
+
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+li span {
+  display:block;
+  font-size:2em;
+}
+ h2{
+     margin:50px 50px;;
+     text-align:center;
+     font-size:3.5em;
+     color:#31087B;
+ }
+@media all and (max-width:768px){
+  h1{
+    font-size:calc(1em *var(--small));
+  }
+  li {
+     font-size:calc(1em *var(--small));
+  }
+  li span{
+    font-size:calc(3em *var(--small));
+  }
+}
